@@ -1,16 +1,128 @@
-# React + Vite
+# 🎮 Tic Tac Toe Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and interactive Tic Tac Toe game built using React and Tailwind CSS.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Add your deployed link here:
 
-## React Compiler
+```bash
+https://x-o-weld.vercel.app
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* ✅ 3x3 Interactive Game Board
+* ✅ Two Player Turn System
+* ✅ Winner Detection
+* ✅ Draw Detection
+* ✅ Winning Square Highlight
+* ✅ Reset Game Functionality
+* ✅ Responsive Design
+* ✅ Modern Glassmorphism UI
+* ✅ Smooth Hover Animations
+
+---
+
+## 🛠️ Tech Stack
+
+* React
+* Vite
+* Tailwind CSS
+
+---
+
+## 📂 Project Structure
+
+```bash
+src/
+│
+├── components/
+│   ├── Board.jsx
+│   └── Square.jsx
+│
+├── utils/
+│   └── calculateWinner.js
+│
+├── App.jsx
+└── index.css
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mudassir-jmi/x-o
+```
+
+Navigate into the project folder:
+
+```bash
+cd x-o
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🎯 How to Play
+
+* Player X starts first
+* Players take turns placing X and O
+* First player to align 3 symbols wins
+* If all squares are filled without a winner, the game ends in a draw
+
+---
+
+## 📸 Screenshots
+
+Add screenshots here.
+
+![tic-tac-toe](public/tic-tac-toe.png)
+
+---
+
+## 🌐 Deployment
+
+This project is deployed using Vercel.
+
+### Deploy Steps
+
+1. Push code to GitHub
+2. Go to Vercel
+3. Import GitHub repository
+4. Click Deploy
+
+---
+
+## 📚 Learning Outcomes
+
+Through this project, I learned:
+
+* React component structure
+* State management using useState
+* Conditional rendering
+* Game logic implementation
+* Tailwind CSS styling
+* Responsive UI design
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by Md Mudassir Akhter
