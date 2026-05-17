@@ -4,8 +4,6 @@ A modern and interactive Tic Tac Toe game built using React and Tailwind CSS.
 
 ## 🚀 Live Demo
 
-Add your deployed link here:
-
 ```bash
 https://x-o-weld.vercel.app
 ```
